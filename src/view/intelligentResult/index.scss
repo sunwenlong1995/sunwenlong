@@ -1,0 +1,50 @@
+.ZA_template_S{
+	background-color: #fff;
+}
+
+.acceptIMg{
+	width: 60%;
+	display: block;
+	margin-top: px(64);
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+.desc{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 72%;
+	margin-top: px(64);
+	text-align: center;
+	font-size: px(32);
+	font-weight: 600;
+	color: $deep-color;
+	line-height: 1.5;
+}
+
+.resaon{
+	text-align: center;
+	color: $snail-light-color;
+	font-size: px(32);
+	font-weight: 400;
+	margin-top: px(23);
+	margin-bottom: px(87);
+}
+
+.thisB1,.thisB2{
+	width: 92%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: px(20);
+	font-size: px(36);
+	border: 1px solid $snail-light-color;
+	}
+	
+.thisB2{
+	color: $light-color2;
+	background-color: #fff;
+	border: 1px solid $border-color;
+}

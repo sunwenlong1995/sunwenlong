@@ -1,0 +1,45 @@
+.deteil{
+	padding: px(30);
+	background-color: #fff;
+	text-align: left;
+	margin-bottom: px(16);
+	
+	.content{
+		color: $deep-color;
+		font-size: px(32);
+		font-weight: 500;
+		display: flex;
+		padding-bottom: px(24);
+		border-bottom: 1px solid $border-color;
+	}
+	.font_right{
+		flex: 1;
+		
+	}
+	.font_1{
+		margin-left: 0;
+		display: flex;
+		height: px(46);
+		padding: 0 px(4);
+		background:$snail-light-color;
+		border-radius:px(8);
+		font-size: px(28);
+		font-weight: 500;
+		color: #fff;
+		justify-content: center;
+		align-items: center;
+		margin-right: px(20);
+	}
+	.font_2{
+		color: $light-color2;
+		font-size: px(26);
+		font-weight: normal;
+	}
+	.yAnswer{
+		margin-left: px(68);
+		margin-top: px(24);
+	}
+}
+.Thislist{
+	margin-top: px(18);
+}

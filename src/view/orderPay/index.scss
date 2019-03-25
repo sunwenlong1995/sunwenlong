@@ -1,0 +1,150 @@
+.list_div {
+	position: relative;
+	width: calc(100% - #{px(60)});
+	margin-left: px(30);
+	border-radius: px(20);
+	margin-bottom: px(20);
+	filter: drop-shadow(0 0 px(5) rgba(0, 0, 0, 0.08));
+	box-sizing: border-box;
+	min-height: px(400);
+	margin-top: px(32);
+	padding-top: px(52);
+
+	.title {
+		font-size: px(24);
+		color: $deep-color;
+	}
+
+	.font2 {
+		font-weight: 600;
+		font-size: px(64);
+	}
+}
+.test1 {
+	width: calc(100% - #{px(60)});
+	padding-bottom: px(68);
+	background-image: radial-gradient(circle at 0% px(204), transparent px(15), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(12), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+		radial-gradient(circle at 100% px(204), transparent px(15), #fff 0);
+	background-repeat: no-repeat;
+	background-size: 5% 100%;
+	background-position: 0% bottom, 5% bottom, 10% bottom, 15% bottom, 20% bottom, 25% bottom,
+		30% bottom, 35% bottom, 40% bottom, 45% bottom, 50% bottom, 55% bottom, 60% bottom,
+		65% bottom, 70% bottom, 75% bottom, 80% bottom, 85% bottom, 90% bottom, 95% bottom,
+		100% bottom;
+	position: relative;
+	z-index: 999;
+}
+.datted {
+	position: absolute;
+	top: px(204);
+	left: px(23);
+	z-index: 9999;
+	width: calc(100% - #{px(50)});
+	height: px(1);
+	// background: red;
+	background-image: linear-gradient(to right, #e6e6e6 0%, #e6e6e6 50%, transparent 50%);
+	// background-image: linear-gradient(to right, red 0%, red 50%, transparent 50%);
+	background-size: px(13) px(1);
+	background-repeat: repeat-x;
+}
+
+.productInfo{
+	margin-top: px(91);
+	font-size: px(26);
+	padding-left: px(60);	
+	padding-right: px(60);
+	text-align: left;
+	
+	.listItem{
+		display: flex;
+		margin-bottom: px(13);
+	}
+	.itemLeft{
+		color: $light-color2;
+		min-width: px(110);
+		margin-right: px(50);
+	}
+	
+	.itemRight{
+		flex: 1;
+		color: $deep-color;
+	}
+}
+
+.title1{
+	color: $light-color2;
+	font-size: px(24);
+	margin-top: px(49);
+	margin-bottom: px(20);
+}
+
+.payWayItem{
+	background-color: #fff;
+	height: px(120);
+	display: flex;
+	align-items: center;
+	padding-left: px(42);
+	padding-right: px(15);
+	
+	.wx{
+		width: px(39);
+		height: px(36);
+		margin-right: px(28);
+	}
+	.card{
+		width: px(36);
+		height: px(29);
+		margin-right: px(28);
+	}
+	.zfb{
+		width: px(38);
+		height: px(38);
+		margin-right: px(28);
+		position: relative;
+		top: -1px
+	}
+	.rightItem{
+		flex: 1;
+		border-bottom: 1px solid $border-color;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: px(32);
+		color: $deep-color;
+		padding-bottom: px(37);
+		padding-top: px(38);
+	}
+	
+	.imgT {
+		width: px(46);
+		height: px(46);
+		margin-right: px(30);
+	}
+}
+
+.thisBtn{
+	margin: px(63) 0;
+	width: 92%;
+	left: 50%;
+	position: relative;
+	transform: translateX(-50%)
+}

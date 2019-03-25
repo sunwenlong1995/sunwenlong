@@ -1,0 +1,73 @@
+.dialogMOdel{
+	padding: px(42) px(30);
+	text-align: center;
+	.someBg{
+		// width:px(348);
+		height:px(45);
+		background:rgba(0,0,0,0.1);
+		border-radius:px(6);
+		padding: px(6) px(30);
+		// opacity:0.1;
+		color: #fff;
+		margin: px(30) 0;
+		display: inline-block;
+	}
+	
+	.specialCOlor{
+		color: $snail-light-color;
+	}
+}
+.cannotClick{
+	background: #b9edfe !important;
+}
+.ZA_template_S{
+	// transition: all 2s;
+}
+.thisBtn{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: px(164);
+	padding: px(40);
+	box-sizing: border-box;
+	background-color: #fff;
+	z-index: 999;
+}
+.otherBB{
+	width: 100%;
+	box-sizing: border-box;
+}
+// 弹窗
+.thisModel{
+	background: #fff;
+	width: 100%;
+	box-sizing: border-box;
+	padding: px(73) px(76);
+	padding-bottom: px(42);
+	.thisIMg{
+		width: px(410)
+	}
+	.thisTitle{
+		font-size: px(36);
+		color: $deep-color;
+	}
+	
+	.bigTitle{
+		font-size: px(44);
+		color: $deep-color;
+		margin-top: px(10);
+		margin-bottom: px(36);
+	}
+	@media screen and (max-width: 320px) {
+		.bigTitle{
+			font-size: px(40);
+			}
+			.thisTitle{
+			font-size: px(34);
+			}
+	}
+	.comBtn{
+		margin-top: px(20);
+	}
+}

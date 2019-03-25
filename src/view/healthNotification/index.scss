@@ -1,0 +1,123 @@
+
+
+.thisFoot1{
+	position: fixed;
+	height: px(98);
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	width: 100%;
+	z-index: 99;
+	box-shadow: 0px 0px 4px 0px rgba(220, 220, 220, 1);
+	
+	.footLeft,.footRight{
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: px(32);
+		height: 100%
+	}
+	.footLeft{
+		color: $deep-color;
+	}
+	.footRight{
+		background-color: $snail-light-color;
+		color: #fff;
+	}
+}
+
+// 弹窗
+.thisModel1{
+	border-radius: px(40);
+	width: 100%;
+	min-height:400px;
+	background-color: transparent;
+	.close{
+		width: px(40);
+		height: px(40);
+		margin: px(20);
+		margin-right: 0;
+	}
+	.bg{
+		width: 100%;
+		border-radius: px(20) px(20) 0 0;
+		display: block;
+		
+	}
+	.bigFont{
+		font-size: px(44);
+		font-weight: 600;
+		margin-top: px(8);
+	}
+	
+	@media screen and (max-width: 320px) {
+		.bigFont{
+			font-size: px(36);
+			font-weight: 600;
+			}
+	}
+	.modelContent{
+		background-color: #fff;
+		padding: px(53);
+		color: $deep-color;
+	}
+	.comBtn{
+		margin-top: px(52);
+	}
+	.lightColor{
+		font-size: px(24);
+		color: $light-color2;
+		margin-top: px(31);
+	}
+}
+
+$inputSize: px(36);
+input::-webkit-input-placeholder {
+		/* WebKit browsers */
+		color: #C9C9C9 !important;
+		font-size: $inputSize;
+	}
+	
+	input:-moz-placeholder {
+		/* Mozilla Firefox 4 to 18 */
+		color: #C9C9C9 !important;
+		font-size: $inputSize;
+	}
+	
+	input::-moz-placeholder {
+		/* Mozilla Firefox 19+ */
+		color: #C9C9C9 !important;
+		font-size: $inputSize;
+	}
+	
+	input:-ms-input-placeholder {
+		/* Internet Explorer 10+ */
+		color: #C9C9C9 !important;
+		font-size: $inputSize;
+	}
+.comInput1 {
+	background-color: transparent;
+	position: relative;
+    border: none;
+    font-size: $inputSize;
+    height: px(46);
+    outline: 0;
+	-webkit-opacity: 1;
+    width: px(100);
+	border-bottom: 1px solid $snail-light-color;
+	text-align: center
+	// flex: 1;
+}
+
+.questionItem{
+	background: #fff;
+	color: $deep-color;
+	text-align: left;
+	font-size: $inputSize;
+	font-weight: 500;
+	padding: px(20)
+}

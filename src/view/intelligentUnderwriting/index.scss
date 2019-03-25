@@ -1,0 +1,73 @@
+.cannotClick{
+	background: #b9edfe !important;
+}
+
+.litterTitle{
+	font-size: px(24);
+	color: $light-color2;
+	padding-top: px(39);
+	padding-bottom: px(22);
+	padding-left: px(30);
+	text-align: left;
+}
+
+.ZA_template_S{
+	padding-bottom: px(480);
+}
+.other{
+	padding-bottom: px(98);
+}
+.thisBtn{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: px(98);
+	box-sizing: border-box;
+	background-color: $snail-light-color;
+	z-index: 999;
+}
+.listThis{
+// 	.ThisTitle{
+// 		position: absolute;
+// 		top: 0;
+// 		left: 0;
+// 	}
+	position: fixed;
+	bottom: px(98);
+	left: 0;
+	height: px(300);
+	z-index: 999;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0px 0px 4px 0px rgba(220, 220, 220, 1);
+	padding: px(40) px(30);
+	color: $deep-color;
+	font-size: px(28);
+	text-align: left;
+	// overflow: auto;
+}
+
+.checkBox{
+	height: px(220);
+	overflow: auto;
+	display: inline-block;
+	padding-top: px(22);
+	
+	.boxItem {
+		padding: px(10) px(30);
+		color: #fff;
+		border-radius: px(6);
+		// border: 1px solid $border-color;
+		background-color: $snail-light-color;
+		margin-bottom: px(20);
+		// margin-top: px(20);
+		margin-right: px(20);
+		display: inline-block;
+	}
+	.delImg{
+		width: px(22);
+		height: px(22);
+		margin-left: px(27);
+	}
+}

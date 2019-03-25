@@ -1,0 +1,224 @@
+.OO{
+	position: relative;
+	top: 6px;
+}
+
+.fail{
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	padding-top: px(28);
+	padding-bottom: px(19);
+
+	img{
+		width: px(290);
+		height: px(240);
+	}
+}
+
+.failContent{
+		margin-bottom: px(65);
+	width: 100%;
+	height: px(252);
+	background: #fff;
+	padding: 0 px(30);
+	padding-bottom: px(38);
+	box-sizing: border-box;
+	.failInner{
+		background: #F7FCFC;
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+		padding-top: px(24);
+		
+		.bigFail{
+			color: $snail-light-color;
+			margin-bottom: px(35);
+			font-size: px(48);
+		}
+	}
+}
+// topic
+.topicBg{
+	text-align: left;
+	width: 100%;
+	border-radius: 0% 0% 90% 90% / 60% 60% 40% 40%;
+	background: $snail-light-color;
+	background-size: 100% 100%;
+	height: px(308);
+	position: relative;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+// 	img{
+// 		width: px(208);
+// 		height: px(212);
+// 		position: relative;
+// 		top: px(32)
+// 	}
+}
+.ZZ{
+	display: flex;
+	align-items: center;
+	padding-top: px(0) !important;
+}
+.bgContent{
+	background-color: #fff;
+	position: relative;
+}
+.big{
+	font-size: px(80);
+	font-weight: bold;
+	color: #111A34;
+}
+.thisSpan{
+	display: flex;
+	color: #969DAA;
+	font-size: px(46);
+	position: relative;
+	top: -8px
+}
+.success{
+	padding-top: px(37);
+	padding-bottom: px(40);
+	font-size: px(48);
+	color: $snail-light-color;
+	font-weight: bold;
+}
+// 
+.thisBtn{
+	// margin-top: px(58);
+	width: calc(100% - #{px(50)});
+	margin-left: px(25);
+	height: px(60);
+}
+	/* */
+	$top: 75px; // 页面深黑色
+.datted {
+				position: absolute;
+				top: $top;
+				left: px(23);
+				z-index: 9999;
+				width: calc(100% - #{px(50)});
+				height: px(1);
+				// background: red;
+				background-image: linear-gradient(to right, #c3c3c3 0%, #c3c3c3 50%, transparent 50%);
+				// background-image: linear-gradient(to right, red 0%, red 50%, transparent 50%);
+				background-size: px(13) px(1);
+				background-repeat: repeat-x;
+				
+			}
+	.list_div{
+		position: relative;
+		top: px(-50);
+		width: calc(100% - #{px(60)});
+		margin-left: px(30);
+		// height: px(800);
+		border-radius: px(20);
+		margin-bottom: px(20);
+		filter: drop-shadow(0 0 px(5) rgba(0, 0, 0, 0.08));
+		// filter: drop-shadow(0 0 px(5) red);
+		box-sizing: border-box;
+	}
+.test1 {
+				width: calc(100% - #{px(60)});
+				padding-bottom: px(68);
+				background-image:  
+				radial-gradient(circle at 0% $top, transparent px(15), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(12), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 50% 100%, transparent px(10), #fff 0),
+				radial-gradient(circle at 100% $top, transparent px(15), #fff 0);
+				background-repeat: no-repeat;
+				background-size: 5% 100%;
+				background-position: 0% bottom, 5% bottom, 10% bottom, 15% bottom,
+									 20% bottom, 25% bottom, 30% bottom, 35% bottom,
+									 40% bottom, 45% bottom, 50% bottom, 55% bottom,
+									 60% bottom, 65% bottom, 70% bottom, 75% bottom,
+									 80% bottom, 85% bottom, 90% bottom, 95% bottom,
+									 100% bottom;
+				position: relative;
+				top: px(-56);
+				z-index: 999;
+		}
+.selfInfo{
+	padding: px(50) px(30);
+	text-align: left;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	
+	.infoLeft{
+		width: px(100);
+		width: px(100);
+		margin-right: px(30);
+		img{
+			width: 100%;
+		}
+	}
+	.infoBig{
+		font-size: px(36);
+		color: $deep-color;
+		font-weight: 600;
+	}
+	.infoLitter{
+		font-size: px(24);
+		margin-top: px(10);
+		color: $light-color;
+	}
+	.man{
+		width: px(60);
+		position: absolute;
+		top: px(60);
+		right: px(54);
+	}
+	.woman{
+		width: px(60);
+		position: absolute;
+		top: px(60);
+		right: px(54);
+	}
+}
+//详细信息
+.info_detail{
+	margin-top: 48px;
+	
+	.detail_content{
+		display: flex;
+		justify-content: space-between;
+		font-size: px(28);
+		color: $deep-color;
+		padding: px(20) px(30);
+		border-bottom: 1px solid #E9E9E9;
+	}
+	.some_content{
+		font-size: px(28);
+		border-bottom: 1px solid #E9E9E9;
+		color: $deep-color;
+		text-align: left;
+		padding: px(20) px(30);
+		span{
+			margin-bottom: px(24);
+			display: inline-block;
+		}
+		div{
+			color: $light-color;
+		}
+	}
+}

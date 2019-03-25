@@ -1,0 +1,90 @@
+.thisTitle{
+		font-size: px(36);
+		color: $deep-color;
+	}
+	
+	.bigTitle{
+		font-size: px(44);
+		color: $deep-color;
+		margin-top: px(10);
+		margin-bottom: px(36);
+	}
+.thisIMg{
+	width: 40%
+}
+
+.someContent{
+	background-color: #fff;
+	padding: px(26) 0;
+}
+.otherList{
+	padding: px(34) 0;
+	background: #fff;
+	margin: px(33) px(37);
+	
+	.titleThis{
+		display: flex;
+		// width: 100%;
+		justify-content: space-between;
+		padding-left: px(40);
+		padding-right: px(34);
+		color: $deep-color;
+		font-size: px(28);
+		position: relative;
+	}
+	
+	.otherIMg{
+		width: px(12) !important;
+		height: px(20) !important;
+		position: relative;
+		top: px(8)
+	}
+}
+.lineThis{
+		position: absolute;
+		left: 0;
+		top: px(6);
+		width:px(4);
+		height:px(28);
+		background-color: $snail-light-color;
+	}
+.contentThis{
+	
+	margin-top: px(26);
+	margin-left: px(37);
+	margin-right: px(43);
+	padding-top: px(27);
+	border-top: 1px solid $border-color;
+	text-align: left;
+	color: $deep-color;
+	
+	
+	.grey{
+		margin-bottom: px(12);
+		color: $light-color2;
+	}
+	
+	.font1{
+		margin-top: px(30);
+	}
+}
+
+.thisthisBtn{
+	background: #fff;
+	border: 1px solid currentColor;
+	color: $snail-light-color;
+	font-size: px(36);
+	font-weight: 400;
+	margin-bottom: px(40);
+	width: 90%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	height: auto;
+	
+	.btnIMg{
+		width: px(40);
+		height: px(40);
+		margin-right: px(25);
+	}
+}
